@@ -1,0 +1,21 @@
+{
+    "name": "product-catalogue",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./assets/tailwind/input.css -o ./assets/tailwind/output.css --watch",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.27",
+        "tailwindcss": "^3.3.3",
+        "vite": "^4.4.5"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.4"
+    }
+}
